@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #003E56;
+    --secondary-color: #71B8E6;
+    --accent1-color: #004C67;
+    --accent2-color: #005B7A;
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Work+Sans", sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--secondary-color);
+}
