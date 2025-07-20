@@ -126,12 +126,14 @@ body {
     padding: 20px;
 }
 
+
 .intro img {
-    max-width: 35%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
-    border-radius: 8px;
 }
+
 
 .intro h2 {
     text-align: center;
