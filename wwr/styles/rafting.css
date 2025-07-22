@@ -4,11 +4,13 @@
     --accent1-color: #004C67;
     --accent2-color: #005B7A;
     --header-color: #ffffff;
-    --heading-font: "Montserrat", sans-serif;
-    --body-font: "Work+Sans", sans-serif;
+    --heading-font-family: "Work Sans", sans-serif;
+    --body-font-family: "Montserrat", sans-serif;: "Work+Sans", sans-serif;
 }
 
 header {
+    font-family: var(--heading-font-family);
+    font-weight: 900;
     background-color: var(--primary-color);
     display: flex;
     align-items: flex-end;
@@ -18,6 +20,7 @@ header {
 
 header a {
     padding: 10px;
+    font-weight: 500;
     position: relative;
     top: 2px;
     text-decoration: none;
@@ -38,7 +41,8 @@ header img {
 }
 
 body {
-    font-family: var(--body-font);
+    font-family: var(--body-font-family);
+    font-weight: 200;
     color: var(--secondary-color);
     height: auto;
     background-color: #005B7A;
