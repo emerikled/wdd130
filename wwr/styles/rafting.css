@@ -23,21 +23,61 @@ header {
     align-items: flex-end;
     justify-content: space-between;
     padding: 10px;
+    
 }
 
 header a {
     padding: 10px;
     font-weight: 500;
     position: relative;
-    top: 2px;
+    top: 1px;
     text-decoration: none;
     color: var(--header-color);
+    background-color: #005B7A;
 
 }
 
 header img {
     width: 10%;
     height: auto;
+
+}
+
+figure { 
+    display:flex;
+    padding: 10px;
+    align-items:end;
+    text-align: center;
+    justify-content: center;
+}
+
+figcaption { 
+  position: absolute;
+  color: var(--header-color);
+  font: italic smaller sans-serif;
+  padding: 5px 175px;
+  border-radius: 4px;
+  background-color: #003E56;
+
+}
+
+
+.gallery figure{
+    display:flex;
+    padding: 10px;
+    align-items:end;
+    text-align: center;
+    justify-content:space-around;
+}
+
+
+.gallery figcaption { 
+  position:absolute;
+  color: var(--header-color);
+  font: italic smaller sans-serif;
+  padding: 5px 74px;
+  border-radius: 4px;
+  background-color: #003E56;
 
 }
 
@@ -149,7 +189,7 @@ body {
 .intro img {
     display: block;
     margin: 0 auto;
-    max-width: 30%;
+    max-width: 450px;
     height: auto;
     border-radius: 8px;
 }
@@ -205,22 +245,25 @@ body {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 10px 20px;
     background-color: var(--primary-color);
     color: var(--header-color);
 }
 
-.socialmedia {
-    display: flex;
-    gap: 10px;
-}
+
 
 .socialmedia a img {
     width: 24px;
     height: 24px;
     object-fit: contain;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--body-color);
+    
+    
 }
 
 
@@ -235,3 +278,4 @@ article {
 .socialmedia a {
     text-decoration: none;
 }
+
