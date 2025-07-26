@@ -26,7 +26,9 @@ header {
     
 }
 
+
 header a {
+
     padding: 10px;
     font-weight: 500;
     position: relative;
@@ -43,23 +45,46 @@ header img {
 
 }
 
-figure { 
-    display:flex;
+<style>
+figure {
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+</style>
+
+
+
+/*figure{
+
+}
+
+ /* figure { 
+  display:flex;
     padding: 10px;
     align-items:end;
     text-align: center;
     justify-content: center;
-}
+}*/
 
-figcaption { 
-  position: absolute;
+ /*figcaption { 
+  position: relative;
+  top: 30px;
   color: var(--header-color);
   font: italic smaller sans-serif;
   padding: 5px 175px;
   border-radius: 4px;
   background-color: #003E56;
 
-}
+} */
 
 
 .gallery figure{
