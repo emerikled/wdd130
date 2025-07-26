@@ -29,6 +29,7 @@ header {
 
 header a {
 
+    
     padding: 10px;
     font-weight: 500;
     position: relative;
@@ -45,23 +46,19 @@ header img {
 
 }
 
-<style>
 figure {
   border: 1px #cccccc solid;
-  padding: 4px;
-  margin: auto;
+ 
 }
 
 figcaption {
+  position: relative;
   background-color: var(--primary-color);
   color: white;
   font-style: italic;
   padding: 2px;
   text-align: center;
 }
-</style>
-
-
 
 /*figure{
 
