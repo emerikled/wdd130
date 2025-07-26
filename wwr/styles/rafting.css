@@ -53,7 +53,7 @@ figure {
 }
 
 figcaption {
-  background-color: black;
+  background-color: var(--primary-color);
   color: white;
   font-style: italic;
   padding: 2px;
