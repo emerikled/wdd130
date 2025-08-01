@@ -65,24 +65,27 @@
         <form>
             <fieldset>
                 <legend><h2>Tell us about you:</h2></legend>
+                <div class="inputinfo">
                     <div class="form-item column2">
                         <label for="fullname">Full Name</label>
                         <input type="text" id="fullname" name="fullname">
                     </div>
-            <div class="form-item column2">
-                <label for="username">Email</label>
-                <input type="text" id="usermail" name="usermail">
-            </div>
-            <div class="form-item column2">
-                <label for="telephone">Phone number</label>
-                <input type="number" id="phonenumber" name="phonenumber">
-            </div>
-                <!--form elements will go here-->
+                
+                    <div class="form-item column2">
+                        <label for="username">Email</label>
+                        <input type="text" id="usermail" name="usermail">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="telephone">Phone number</label>
+                        <input type="number" id="phonenumber" name="phonenumber">
+                    </div>
+                    <!--form elements will go here-->
+                </div>
             </fieldset>
             <fieldset>
-                <legend>I am interested in:</legend>
+                <legend><h2>I am interested in:</h2></legend>
                     <div class="form-item column1">
-                        <label for="browser"> Select an acytivity you are interested on </label>
+                        <label for="browser"><strong>Select an acytivity you are interested on</strong></label>
                             <select name="browser" id="browser">
                                 <option value="chrome">Rafting</option>
                                 <option value="firefox">Kayak</option>
@@ -100,7 +103,7 @@
                         <label for="feedback">Tell us any detail about your next visit</label>
                     </div>
                     <textarea for="feedback" name="feedback" rows="4"
-                    placeholder="Stillwater Florida, Amsterdam Hetherlands, Tibuktu Mail"></textarea>
+                    placeholder=""></textarea>
                 <!--form elements will go here-->
 
                 <button type="submit">Submit</button>
