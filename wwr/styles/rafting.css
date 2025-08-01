@@ -169,24 +169,50 @@ body {
 
 }
 
-.contactinfo {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 2rem; /* Optional spacing between info and map */
-  padding: 1rem;
+
+.contactus {
+    background-color: var(--accent1-color);
+    width: 40%;
+    height: 450px;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.information {
-  flex: 1;
-  font-size: 1.1rem;
-  line-height: 1.6;
+.contactus p {
+    padding: 10px;
+    margin: 0;
 }
 
-/* Right side: map */
 .map {
-  flex: 1;
-  max-width: 600px;
+    width: 40%;
+    float: right;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+form{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 /0.1);
+    border-radius: 0.5rem;
+    background-color: var(--accent1-color);
+    display: grid;
+    width: 90%;
+    height: 450px;
+    float: left;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+    display: flex;
+    
 }
 
 .history {
