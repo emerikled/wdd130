@@ -423,3 +423,66 @@ footer {
     text-decoration: none;
 }
 
+.contactus1 {
+    background-color: var(--accent1-color);
+    width: 80%;
+    height: 450px;
+    float:none;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contactus1 p {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 0;
+}
+
+.container1, .container3 {
+    background-color: var(--accent1-color);
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container2, .container4 {
+    background-color: var(--accent1-color);
+    width: 80%;
+    height: 450px;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin: 1rem;
+}
+
+
+.select-trip {
+  display: flex; /* Enables Flexbox layout */
+  justify-content: center; /* Centers horizontally along the main axis */
+  align-items: center; /* Centers vertically along the cross axis */
+  /* Add height or other dimensions to the container if vertical centering is desired */
+  margin: 2.5%;
+}
+
+
+
+
