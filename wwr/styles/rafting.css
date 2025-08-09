@@ -483,6 +483,83 @@ img {
   margin: 2.5%;
 }
 
+.buttontrip {
+    text-decoration: none;
+}   
 
 
+/*--Map Trips*/
+.map2 {
+    width: 40%;
+    float:right;
+    margin-top: 5%;
+    margin-left: .5%;
+    margin-right: 2.5%;
+    margin-bottom: 5%;
+}
 
+.buttoncontact {
+  display: flex; /* Enables Flexbox layout */
+  justify-content: center; /* Centers horizontally along the main axis */
+  align-items: center; /* Centers vertically along the cross axis */
+  /* Add height or other dimensions to the container if vertical centering is desired */
+  margin: 2.5%;
+}
+
+.buttoncontact {
+    text-decoration: none;
+} 
+
+
+/*--Trips*/
+.carousel-container {
+    position: relative;
+    max-width: 70%;
+    overflow: hidden;
+    margin: 2rem auto;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* 4 slides */
+}
+
+.carousel-slide {
+    flex: 1 0 100%;
+    position: relative;
+    text-align: center;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    max-width: 90%;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
